@@ -23,79 +23,63 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Mete",
+    lastName: "Karasakal",
+    initials: "MK", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Junior Blockchain and Web3 Developer | Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in TRNC'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: "📖",
+            text: "studying Computer Engineering in METU NCC"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "karasakal99@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/karasakalmt",
             icon: "fa fa-github"
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/mete-karasakal-808449176",
             icon: "fa fa-linkedin"
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/karasakalmt",
             icon: "fa fa-twitter"
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Mete. I'm a junior web3 and blockchain developer, and full-stack web3 developer. I study computer engineering in METU NCC, I am enthusiastic of learning new technologies and using them. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'nodejs', 'react', 'solidity', 'git', 'html5', 'css3', 'python', 'c', 'express.js', 'flask', 'web3.js', 'sql-nosql-dbs', 'nestjs'],
+            exposedTo: ['c++', 'java', 'haskell', 'verilog', 'prolog']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'winter sports',
+            emoji: '🏂'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'camping',
+            emoji: '🔥'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'water sports',
+            emoji: '🤿'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
