@@ -26,11 +26,15 @@ export const info = {
     firstName: "Mete",
     lastName: "Karasakal",
     initials: "MK", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Junior Blockchain and Web3 Developer | Full Stack Developer",
+    position: "a Junior Blockchain and Web3 Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+        {
+            emoji: '💻',
+            text: 'Full Stack Web2 Developer'
+        },
         {
             emoji: '🌎',
             text: 'based in TRNC'
@@ -45,6 +49,10 @@ export const info = {
         }
     ],
     socials: [
+        {
+            link: "https://karasakalmt.github.io/",
+            icon: "fa fa-file"
+        },
         {
             link: "https://github.com/karasakalmt",
             icon: "fa fa-github"
